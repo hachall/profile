@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Open Sans', sans-serif;
+  color: #F3F3F3;
+  background: url(images/concrete_seamless.png) repeat 0 0;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  color: #343434;
+  margin: 15px;
+  text-shadow: 1px 1px 1px rgba(60, 43, 40, 0.3)
+}
+
+p {
+  color: #8E8B82;
+  filter: brightness(50%);
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+h3 {
+  font-size: 16px;
+  color: #8E8B82;
+  margin: 0px;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+/*  padding-left: 10px;
+  padding-right: 10px;*/
+  color: #8E8B82;
+}
+
+a:hover {
+  color: #343434;
+  transition: 0.3s;
+}
+
+table {
+  padding: 10px;
+  margin: 20px 20px;
+  /*border-spacing: 20px auto ;*/
+}
+
+#summary {
+  position: relative;
+}
+
+#header-links {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /*padding-left: 30px;*/
+  padding-right: 20px;
+  word-spacing: 12px;
+}
+
+#social-media-links {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.link-align {
+  display: inline;
+}
+
+.container {
+  width: 700;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(219,196,189, 0.5);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(60, 43, 40, 0.3);
+}
+
+.table-card {
+  padding: 0;
+}
+
+.table-text {
+  margin: 6px;
+}
+
+.table-title {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.no-top-padding {
+  padding-top: 0;
+}
+
+.profile_pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 3px solid rgba(60, 43, 40, 0.3);
+  box-shadow: 1px 1px 3px rgba(60, 43, 40, 0.3)
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cat-image {
+  /*padding: 20px;*/
+  border-radius: 3px;
+  width: 200px;
+  height: 200px;
+  background-size: cover !important;
+  background-position: center !important;
+  box-shadow: 1px 1px 3px rgba(60, 43, 40, 0.3)
+}
+
+.cat-image:hover {
+  box-shadow: 0 14px 28px rgba(60, 43, 40, 0.3), 0 10px 10px rgba(60, 43, 40, 0.3);
+}
+
+.rotateimg90 {
+    /*padding: 40px ;*/
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.row-height {
+  height: 220px;
+}
+
+
+
+
+
+
+
